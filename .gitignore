@@ -1,0 +1,72 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# ===========================
+# TensorFlow Object Detection
+# ===========================
+
+# LabelImg tool
+Tensorflow/labelImg/
+
+# Collected images
+Tensorflow/workspace/images/collectedimages/
+
+# Optional: Ignore train/test images as well
+# Uncomment if you don't want to upload datasets
+# Tensorflow/workspace/images/train/
+# Tensorflow/workspace/images/test/
+
+# Trained models
+Tensorflow/workspace/models/
+
+# Downloaded pretrained models
+Tensorflow/workspace/pre-trained-models/
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# TensorFlow checkpoints
+*.ckpt
+*.index
+*.data-*
+checkpoint
+
+# Saved models
+saved_model/
+*.pb
+*.pbtxt
+
+# TFLite
+*.tflite
+
+# ===========================
+# Misc
+# ===========================
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.log
+
+# ===========================
+# Keep annotations
+# ===========================
+# (Do NOT ignore these if you want your project reproducible)
+# Tensorflow/workspace/annotations/
